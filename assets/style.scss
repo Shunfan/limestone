@@ -1,12 +1,8 @@
 $dark-gray: #8F8F8F;
 $light-gray: #DBDBDB;
 
-@mixin roboto {
-    font-family: 'Roboto Slab', serif;
-}
-
 @mixin droid {
-    font-family: 'Droid Serif', sans-serif;
+    font-family: 'Droid Serif', "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 @mixin radius($radius) {
@@ -37,7 +33,6 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
     margin: 10px 0;
-    @include roboto;
     line-height: 20px;
     color: #141414;
 }
@@ -115,7 +110,6 @@ hr {
         @include box-shadow(2px 2px 2px rgba(0, 0, 0, 0.1));
         word-break: break-all;
         .published {
-            @include droid;
             color: $dark-gray;
         }
     }
