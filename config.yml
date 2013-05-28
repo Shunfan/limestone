@@ -1,2 +1,4 @@
-index_posts: 3
+index_posts: 5
 date_format: '%B %d, %Y'
+post_bottom: You could put your contact info or comment box here.
+google_analytics_id: UA-00000000-0
