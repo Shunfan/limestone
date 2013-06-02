@@ -68,6 +68,12 @@ pre {
   padding: 10px;
   border: 1px solid #dbdbdb;
   overflow: auto; }
+  pre code {
+    border-bottom: none; }
+
+code {
+  padding: 2px 0;
+  border-bottom: 1px solid #6296cb; }
 
 hr {
   margin: 20px 0;
